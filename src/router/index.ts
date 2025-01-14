@@ -1,12 +1,13 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import CreateInstrument from '@/views/Create.vue'
+import HomePage from '@/views/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: HomeView
-  // },
+  {
+    path: '/',
+    name: 'HomePage',
+    component: HomePage,
+  },
   {
     path: '/create',
     name: 'CreateInstrument',
